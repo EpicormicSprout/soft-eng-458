@@ -1,0 +1,62 @@
+
+/**  
+    Last Modified: 10/26/2025
+        By: Nick Michel
+
+    THIS IS THE LINK TO HUMBODLTS VISUAL IDENTITY PACKAGE
+    https://www.humboldt.edu/brand/identity
+
+**/
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
+}
+
+
+.logo {
+    background: left / cover
+        url("redwoodImage.jpeg");
+    display: flex;
+    height: 10em;
+    align-items: center;
+    justify-content: left;
+    padding-left: 8em;
+    margin-bottom: 1em;
+}
+
+
+.formContainer {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 1em;
+}
+
+footer {
+    display: flex;
+    height: 5em;
+    align-items: center;
+    justify-content: left;
+    padding-left: 1em;
+    background-color: #004C46;
+    color: #F5F3E7;
+    font-family: sans-serif;
+}
+
+#banner_logo {
+    height: 5em;
+    width: 25em;
+    background-color: #F5F3E7;
+    padding: .5em;
+    border-radius: .5em;
+}
+
