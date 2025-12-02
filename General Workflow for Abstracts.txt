@@ -1,0 +1,12 @@
+﻿General Workflow for Scraping and Fixing the Abstracts.
+1. Turn excel or google sheet into a CSV, making sure there are urls with a column header titled “URL”. 
+2. Move the CSV file into a folder with scrape_abstract.py.
+3. Copy and paste the CSV title into INPUT_CSV, and change OUTPUT_CSV to whatever you want the new CSV file to be called.
+4. Run the script with “python3 scrape_abstracts.py” inside a terminal window
+   1. If the libraries imported are not on your machine, then install them with 
+      1. “python3 -m pip install library_name
+5. Once the script is running, leave the computer on until the script finishes.
+6. After completion you will be given a new CSV file with a column added titled ‘Abstract’. You can then read through it with excel, google sheets or any other software that can read CSVs.
+   1. There will most likely be a bunch of rows indicating that there was an error with reading the URL
+7. Now is the time to manually find any incomplete abstracts, and fix them by copy and pasting the correct one into that cell.
+   1. The most common ways to identify them are using CTRL+F with “...” as the search term or if the abstract stops mid sentence.
