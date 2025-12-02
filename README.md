@@ -3,7 +3,11 @@
 </p>
 
 <h1 align="center">🎓 SDG Thesis Classifier</h1>
-
+<p align="center">
+  <a href="https://nrs-projects.humboldt.edu/~csr53/458/sdg/website/index.php">
+    <img src="https://img.shields.io/badge/🌐_Live_Demo-Visit_Website-00A86B?style=for-the-badge" alt="Live Demo"/>
+  </a>
+</p>
 <p align="center">
   <strong>An AI-powered tool for classifying academic research by UN Sustainable Development Goals</strong>
 </p>
